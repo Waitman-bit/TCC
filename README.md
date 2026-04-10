@@ -13,8 +13,8 @@ A proposta do sistema é oferecer uma experiência moderna para o usuário, perm
 🧑‍💼 Área administrativa (se tiver)
 ❤️ Interface amigável e responsiva
 --------------------------------------
-🛠️ Tecnologias utilizadas
-Front-end:
+🛠️ Tecnologias utilizadas:
+* Front-end:
 * React (ou outra que você estiver usando)
 * HTML5
 * CSS3
