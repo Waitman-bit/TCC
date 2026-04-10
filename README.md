@@ -4,14 +4,14 @@ Seu e-commerce de artigos esportivos, feito para performance dentro e fora do c�
 📌 Sobre o projeto
 O Titan-Sports é um e-commerce desenvolvido como Trabalho de Conclusão de Curso (TCC), com foco na venda de produtos esportivos de forma prática, rápida e intuitiva.
 A proposta do sistema é oferecer uma experiência moderna para o usuário, permitindo navegação fluida, cadastro, autenticação e gerenciamento de produtos.
--🚀 Funcionalidades
--🛒 Listagem de produtos
--🔍 Busca de produtos
--👤 Cadastro e login de usuários
--🔐 Autenticação segura
--📦 Sistema de pedidos
--🧑‍💼 Área administrativa (se tiver)
--❤️ Interface amigável e responsiva
+- Funcionalidades
+- Listagem de produtos
+- Busca de produtos
+- Cadastro e login de usuários
+- Autenticação segura
+- Sistema de pedidos
+- Área administrativa (se tiver)
+- Interface amigável e responsiva
 --------------------------------------
 🛠️ Tecnologias utilizadas:
 * Front-end:
