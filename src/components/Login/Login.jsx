@@ -1,6 +1,6 @@
 import React, { useState } from "react";
+import {Link} from "react-router-dom";
 import "./Login.css";
-
 
 function Login() {
   const [isActive, setIsActive] = useState(false);
@@ -32,7 +32,7 @@ function Login() {
           <span>Preencha com suas informações!</span>
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Senha" />
-          <Link to="#">Esqueceu a Senha?</Link>
+          <Link to="/nova-senha">Esqueceu a Senha?</Link>
           <button type="submit">Fazer Login</button>
         </form>
       </div>
@@ -71,3 +71,5 @@ function Login() {
 }
 
 export default Login;
+
+
