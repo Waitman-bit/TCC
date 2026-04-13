@@ -5,9 +5,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.title{
-    color:#facc15;
-}
 
 body{
     background: #0a0a0a;
@@ -23,8 +20,8 @@ body{
     border-radius: 30px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.8);
     position: relative;
-    overflow: hidden;
-    width: 768px;
+    overflow: visible;
+    width: 768px !important; 
     max-width: 100%;
     min-height: 480px;
     color: #fff;
@@ -42,7 +39,7 @@ body{
     color: #888;
 }
 
-.container a{
+.link{
     color: #facc15;
     font-size: 13px;
     text-decoration: none;
@@ -76,13 +73,13 @@ body{
 }
 
 .container form{
-    background-color: #111;
+   background-color: #111;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 0 40px;
-    height: 100%;
+    min-height: 100%;
 }
 
 .container input{

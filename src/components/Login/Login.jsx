@@ -6,12 +6,12 @@ function Login() {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className={`container ${isActive ? "active" : ""}`} id="container">
+    <div className={`container ${isActive ? "active" : ""}`}>
       
       {/* Criar Conta */}
       <div className="form-container sign-up">
         <form>
-          <h1 className="title">Criar Conta</h1> <br />
+          <h1 className="title">Criar Conta</h1> <br/>
           <span>Informe suas credenciais para continuar</span>
           <input type="text" placeholder="Nome" />
           <input type="email" placeholder="Email" />
@@ -28,11 +28,13 @@ function Login() {
       {/* Login */}
       <div className="form-container sign-in">
         <form>
-          <h1 className="title">Fazer Login</h1>
+          <h1 className="title">Fazer Login</h1> <br/>
           <span>Preencha com suas informações!</span>
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Senha" />
-          <Link to="/nova-senha">Esqueceu a Senha?</Link>
+          <Link to="/nova-senha" className="link">
+            Esqueceu a Senha?
+          </Link>
           <button type="submit">Fazer Login</button>
         </form>
       </div>
@@ -43,7 +45,7 @@ function Login() {
           
           <div className="toggle-panel toggle-left">
             <h1>Voltar Para o Login!</h1>
-            <br />
+            <br/>
             <button
               className="hidden"
               onClick={() => setIsActive(false)}
@@ -54,7 +56,7 @@ function Login() {
 
           <div className="toggle-panel toggle-right">
             <h2>Não Tem Conta?</h2>
-            <h1>Realizar Cadastro!</h1> <br />
+            <h1>Realizar Cadastro!</h1> <br/>
             <button
               className="hidden"
               onClick={() => setIsActive(true)}
