@@ -1,10 +1,10 @@
-import './Senha.css';
+import styles from './Senha.module.css';
 
 function EsqueceuSenha() {
   return (
-    <div className="container">
+    <div className={styles.container}>
       <h1>Crie uma nova senha</h1>
-      <p className="subtitle">Digite sua nova senha abaixo</p>
+      <p className={styles.subtitle}>Digite sua nova senha abaixo</p>
 
       <form>
         <input
@@ -27,7 +27,7 @@ function EsqueceuSenha() {
           required
         />
 
-        <button className="confirm">
+        <button className={styles.confirm}>
           Confirmar
         </button>
       </form>

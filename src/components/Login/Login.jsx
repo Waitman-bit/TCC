@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import {Link} from "react-router-dom";
-import "./Login.css";
+import { Link } from "react-router-dom";
+import styles from "./Login.module.css";
 
 function Login() {
   const [isActive, setIsActive] = useState(false);
 
   return (
-    <div className={`container ${isActive ? "active" : ""}`}>
-      
+    <div className={`${styles.container} ${isActive ? styles.active : ""}`}>
+
       {/* Criar Conta */}
-      <div className="form-container sign-up">
+      <div className={`${styles.formContainer} ${styles.signUp}`}>
         <form>
-          <h1 className="title">Criar Conta</h1> <br/>
+          <h1 className={styles.title}>Criar Conta</h1> <br/>
           <span>Informe suas credenciais para continuar</span>
           <input type="text" placeholder="Nome" />
           <input type="email" placeholder="Email" />
@@ -26,13 +26,13 @@ function Login() {
       </div>
 
       {/* Login */}
-      <div className="form-container sign-in">
+      <div className={`${styles.formContainer} ${styles.signIn}`}>
         <form>
-          <h1 className="title">Fazer Login</h1> <br/>
+          <h1 className={styles.title}>Fazer Login</h1> <br/>
           <span>Preencha com suas informações!</span>
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Senha" />
-          <Link to="/nova-senha" className="link">
+          <Link to="/nova-senha" className={styles.link}>
             Esqueceu a Senha?
           </Link>
           <button type="submit">Fazer Login</button>
@@ -40,25 +40,25 @@ function Login() {
       </div>
 
       {/* Painéis */}
-      <div className="toggle-container">
-        <div className="toggle">
-          
-          <div className="toggle-panel toggle-left">
+      <div className={styles.toggleContainer}>
+        <div className={styles.toggle}>
+
+          <div className={`${styles.togglePanel} ${styles.toggleLeft}`}>
             <h1>Voltar Para o Login!</h1>
             <br/>
             <button
-              className="hidden"
+              className={styles.hidden}
               onClick={() => setIsActive(false)}
             >
               Voltar
             </button>
           </div>
 
-          <div className="toggle-panel toggle-right">
+          <div className={`${styles.togglePanel} ${styles.toggleRight}`}>
             <h2>Não Tem Conta?</h2>
             <h1>Realizar Cadastro!</h1> <br/>
             <button
-              className="hidden"
+              className={styles.hidden}
               onClick={() => setIsActive(true)}
             >
               Seguir
@@ -73,5 +73,3 @@ function Login() {
 }
 
 export default Login;
-
-
