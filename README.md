@@ -10,8 +10,8 @@ A proposta do sistema é oferecer uma experiência moderna para o usuário, perm
 - Cadastro e login de usuários
 - Autenticação segura
 - Sistema de pedidos
-- Área administrativa (se tiver)
-- Interface amigável e responsiva
+- Área administrativa 
+- Interface amigável
 --------------------------------------
 🛠️ Tecnologias utilizadas:
 * Front-end:
@@ -20,8 +20,7 @@ A proposta do sistema é oferecer uma experiência moderna para o usuário, perm
 * CSS3
 * JavaScript
 * Back-end:
-* Node.js
-* Express 
+* PHP
 * Banco de Dados
 * MySQL
 -------------------------
