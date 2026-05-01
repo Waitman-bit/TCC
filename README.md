@@ -15,16 +15,16 @@ A proposta do sistema é oferecer uma experiência moderna para o usuário, perm
 --------------------------------------
 🛠️ Tecnologias utilizadas:
 * Front-end:
-* React (ou outra que você estiver usando)
+* React
 * HTML5
 * CSS3
 * JavaScript
 * Back-end:
 * PHP
-* Banco de Dados
+* Banco de Dados:
 * MySQL
 -------------------------
-🎯 Objetivo do projeto
+🎯 Objetivo do projeto:
 * Este projeto foi desenvolvido com o objetivo de:
 * Aplicar conhecimentos de desenvolvimento web
 * Criar um sistema completo (full stack)
