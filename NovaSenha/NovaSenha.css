@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0a0a0a;
+  font-family: 'DM Sans', Arial, sans-serif;
+}
+
+/* Card */
+.container {
+  width: 100%;
+  max-width: 420px;
+  background: #111;
+  border-radius: 20px;
+  border: 0.5px solid #2a2a2a;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+/* Header amarelo */
+.card-header {
+  background: #ffd60a;
+  padding: 28px 32px 22px;
+}
+
+.lock-icon {
+  width: 42px;
+  height: 42px;
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.card-header h1 {
+  font-family: 'Syne', Arial, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 4px;
+}
+
+.card-header .subtitle {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* Body */
+.card-body {
+  padding: 28px 32px 32px;
+}
+
+/* Campos */
+.field {
+  margin-bottom: 16px;
+}
+
+.field label {
+  display: block;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #666;
+  margin-bottom: 7px;
+}
+
+.input-wrap {
+  position: relative;
+}
+
+.input-wrap input {
+  width: 100%;
+  padding: 12px 14px 12px 42px;
+  background: #1a1a1a;
+  border: 0.5px solid #2a2a2a;
+  border-radius: 10px;
+  color: #fff;
+  font-family: 'DM Sans', Arial, sans-serif;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.input-wrap input::placeholder {
+  color: #444;
+}
+
+.input-wrap input:focus {
+  border-color: #ffd60a;
+  box-shadow: 0 0 0 3px rgba(255, 214, 10, 0.12);
+}
+
+.input-wrap i {
+  position: absolute;
+  left: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 16px;
+  color: #444;
+  pointer-events: none;
+  transition: color 0.2s;
+}
+
+.input-wrap:focus-within i {
+  color: #ffd60a;
+}
+
+/* Força da senha */
+.strength-bars {
+  display: flex;
+  gap: 4px;
+  margin-top: 8px;
+  height: 3px;
+}
+
+.strength-bars span {
+  flex: 1;
+  background: #2a2a2a;
+  border-radius: 99px;
+  transition: background 0.3s;
+}
+
+.strength-bars span.weak   { background: #e63946; }
+.strength-bars span.medium { background: #f4a261; }
+.strength-bars span.strong { background: #2dc653; }
+
+.strength-label {
+  display: block;
+  font-size: 11px;
+  color: #555;
+  margin-top: 5px;
+  min-height: 14px;
+  transition: color 0.3s;
+}
+
+/* Divisor */
+.divider {
+  border: none;
+  border-top: 0.5px solid #1f1f1f;
+  margin: 20px 0;
+}
+
+/* Botão */
+.btn-confirm {
+  width: 100%;
+  padding: 13px;
+  background: #ffd60a;
+  color: #000;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Syne', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.btn-confirm:hover {
+  background: #f0c900;
+  transform: translateY(-1px);
+}
+
+.btn-confirm:active {
+  transform: translateY(0);
+}
+
+/* Link rodapé */
+.footer-link {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 13px;
+}
+
+.footer-link a {
+  color: #ffd60a;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+}
+
+/* Tela de sucesso */
+.card-success {
+  display: none;
+  text-align: center;
+  padding: 48px 32px;
+}
+
+.success-icon {
+  width: 56px;
+  height: 56px;
+  background: rgba(45, 198, 83, 0.15);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  color: #2dc653;
+  margin: 0 auto 16px;
+}
+
+.card-success h2 {
+  font-family: 'Syne', Arial, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.card-success p {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.6;
+}
