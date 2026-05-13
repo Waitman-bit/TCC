@@ -7,24 +7,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>Titan Sports</title>
-
+  <link rel="stylesheet" href="NavBar.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
 <nav class="navbar-ml">
 
   <div class="container-navbar">
 
     <a href="#" class="logo">
-      <img src="imagens/Logo-sem-fundo.png" alt="Logo">
+      <img src="Logo-sem-fundo.png" alt="Logo">
     </a>
 
     <form class="search-box">
@@ -36,7 +31,7 @@
 
     <div class="user-area">
       <a href="login.html" class="profile-box">
-        <img src="imagens/Perfil.png" class="profile-img" alt="Perfil">
+        <img src="Perfil.png" class="profile-img" alt="Perfil">
         <div class="profile-info">
           <span class="welcome">Entrar</span>
           <span class="status">Minha conta</span>
