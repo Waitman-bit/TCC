@@ -20,17 +20,18 @@
      <section class = "hero">
         <h1>TITAN SPORTS</h1> 
         <p>Os melhores produtos esportivos para você.</p>
-     </section> <br>
-     <div id="carouselExampleFade" class="carousel slide carousel-fade">
+     </section> <br> <br> <br>
+     <div class="carrosel">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="Titan-sports.png" class="d-block w-100" alt="Slide 1">
+      <img src="Slide1.png" class="d-block w-100" alt="..." witdh="450px" height="800px">
     </div>
     <div class="carousel-item">
-      <img src="Titan-sports.png" class="d-block w-100" alt="Slide 2">
+      <img src="..." class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="Titan-sports.png" class="d-block w-100" alt="Slide 3">
+      <img src="..." class="d-block w-100" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
@@ -42,18 +43,7 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
+     </div> <br> <br>
     <footer>
         <p>&copy; 2026 TITAN SPORTS. Todos os direitos reservados.</p>
     </footer>
