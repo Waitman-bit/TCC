@@ -20,32 +20,84 @@
      <section class = "hero">
         <h1>TITAN SPORTS</h1> 
         <p>Os melhores produtos esportivos para você.</p>
-     </section> <br> <br> <br>
-     <div class="carrosel">
-      <div id="carouselExampleFade" class="carousel slide carousel-fade">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="Slide1.png" class="d-block w-100" alt="..." witdh="450px" height="800px">
+     </section>
+      <!-- Imagen -->
+      <div class="slide" >
+        <img src="Slide1.png" alt="Slide 1">
+      </div> <br>
+      <!-- Produtos -->
+       <section class="produtos-section">
+  <h2 class="produtos-titulo">Produtos em Destaque</h2>
+  <div class="cards-grid">
+
+    <div class="product-card">
+      <div class="card-img">
+        <img src="tenis-pro-run.png" alt="Tênis Pro Run X3">
+        <span class="card-badge">NOVO</span>
+      </div>
+      <div class="card-body">
+        <p class="card-category">Calçados</p>
+        <p class="card-name">Tênis de corrida Pro Run X3</p>
+        <div class="card-footer">
+          <div>
+            <span class="card-price">R$ 299,90</span>
+            <span class="card-price-old">R$ 399,90</span>
+          </div>
+          <a href="produto.php?id=1" class="btn-add">+ Ver produto</a>
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+
+    <div class="product-card">
+      <div class="card-img">
+        <img src="bola-futebol.png" alt="Bola de Futebol">
+      </div>
+      <div class="card-body">
+        <p class="card-category">Bolas</p>
+        <p class="card-name">Bola Oficial de Futebol Campo</p>
+        <div class="card-footer">
+          <div>
+            <span class="card-price">R$ 89,90</span>
+          </div>
+          <a href="produto.php?id=2" class="btn-add">+ Ver produto</a>
+        </div>
+      </div>
     </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
+
+    <div class="product-card">
+      <div class="card-img">
+        <img src="luvas-treino.png" alt="Luvas de Treino">
+        <span class="card-badge">-25%</span>
+      </div>
+      <div class="card-body">
+        <p class="card-category">Musculação</p>
+        <p class="card-name">Luvas de Treino Grip Pro</p>
+        <div class="card-footer">
+          <div>
+            <span class="card-price">R$ 59,90</span>
+            <span class="card-price-old">R$ 79,90</span>
+          </div>
+          <a href="produto.php?id=3" class="btn-add">+ Ver produto</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="product-card">
+      <div class="card-img">
+        <img src="camisa-dryfil.png" alt="Camisa Dry-Fit">
+      </div>
+      <div class="card-body">
+        <p class="card-category">Vestuário</p>
+        <p class="card-name">Camisa Dry-Fit Titan Elite</p>
+        <div class="card-footer">
+          <div>
+            <span class="card-price">R$ 69,90</span>
+          </div>
+          <a href="produto.php?id=4" class="btn-add">+ Ver produto</a>
+        </div>
+      </div>
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-     </div> <br> <br>
-    <footer>
-        <p>&copy; 2026 TITAN SPORTS. Todos os direitos reservados.</p>
-    </footer>
+</section>
 </body>
 </html>
